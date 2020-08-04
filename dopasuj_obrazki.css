@@ -1,0 +1,32 @@
+* {margin: 0; padding: 0;}
+
+    body
+{
+    max-width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: grid; place-items: center center;
+}
+
+#big_square
+{
+    text-align: center;
+    height: 92vh;
+    width: 92vh;
+    background-color: black; 
+    margin: auto;
+}
+
+.square
+{
+    float: left;
+    background-image: url(./pytajnik.jfif);
+    width: 23vh;
+    height: 23vh;
+    background-size: cover;
+}
+
+.square:hover
+{
+    background-image: url(./pytajnik2.jfif);
+}
